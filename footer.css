@@ -1,0 +1,122 @@
+footer{
+    position: relative;
+    width: 100%;
+    padding: 50px 10vw;
+    padding-bottom: 80px;
+    margin-top: 20px;
+    background: #383838;
+}
+
+.footer-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-content .logo{
+    height: 160px;
+}
+
+.footer-ul-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.category{
+    width: 100%;
+    /* display: grid; */
+    /* grid-template-columns: repeat(1, 0fr);
+    grid-gap: 10px;*/
+    grid-column-gap: 10px; 
+    list-style: none;
+    /* display: flex; */
+    flex-wrap:wrap;
+    grid-template-columns: repeat(0, 2fr);
+    margin-right: 20px;
+}
+
+.category1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-column-gap: 10px;
+    list-style: none;
+}
+
+.category-title{
+    grid-column: span 2;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.category .footer-link{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.75);
+    width: 100%;
+    
+}
+
+.category1 .footer-link{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.footer-link:hover{
+    color: #fff;
+}
+
+.footer-title, .info{
+    color: rgba(255, 255, 255, 0.75);
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+
+.footer-title{
+    margin-top: 0;
+    color: #fff;
+}
+
+.footer-social-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-link{
+    color: #fff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+/* .social-link:nth-child(1){
+    margin-left: 0;
+} */
+
+.footer-credit{
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+
+.i {
+    color: #fff;
+    display: flex;
+    size: 20px;
+}
+
+
+.follow {
+    color: #fff;
+}
